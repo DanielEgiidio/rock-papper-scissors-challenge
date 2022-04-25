@@ -7,20 +7,20 @@ const Play = ({ setMyChoice }) => {
   };
 
   return (
-    <div className="play">
+    <div className="play__">
       <Link to="/game">
         <div data-id="paper" onClick={setChoice} className="icon icon--paper">
-          Papel
+          paper
         </div>
         <div
           data-id="scissors"
           onClick={setChoice}
           className="icon icon--scissors"
         >
-          Tesoura
+          scissors
         </div>
         <div data-id="rock" onClick={setChoice} className="icon icon--rock">
-          Pedra
+          rock
         </div>
       </Link>
     </div>
