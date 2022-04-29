@@ -67,7 +67,7 @@ const Game = ({ score, setScore, myChoice }) => {
         <div className="game__play">
           <span className="text">Você Ganhou 🙂</span>
           <Link to="/" className="play-again" onClick={() => setHouse()}>
-            Play Again
+            Jogar Novamente
           </Link>
         </div>
       )}
@@ -75,7 +75,7 @@ const Game = ({ score, setScore, myChoice }) => {
         <div className="game__play">
           <span className="text">Você Perdeu 😔</span>
           <Link to="/" className="play-again" onClick={() => setHouse()}>
-            Play Again
+            Jogar Novamente
           </Link>
         </div>
       )}
@@ -83,7 +83,7 @@ const Game = ({ score, setScore, myChoice }) => {
         <div className="game__play">
           <span className="text">Empate 🤔</span>
           <Link to="/" className="play-again" onClick={() => setHouse()}>
-            Play Again
+            Jogar Novamente
           </Link>
         </div>
       )}

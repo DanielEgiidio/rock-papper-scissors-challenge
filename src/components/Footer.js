@@ -30,7 +30,7 @@ const Footer = () => {
           .
         </div>
         <button className="rules" onClick={toggle}>
-          Rules
+          Regras
         </button>
       </footer>
       {modal ? <Modal toggle={toggle} /> : null}
