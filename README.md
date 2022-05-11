@@ -28,6 +28,8 @@ Você pode visualizar todas as informações acerca do desafio no link abaixo:
 Você pode acessar a aplicação Web onde foi feito deploy na plataforma Netlify pelo link abaixo.
 - [Aplicação Web](https://rock-paper-scissors-challengefm.netlify.app/)
 
+Ou Acessar localmente na sua maquina seguindo os procedimentos abaixo.
+
 ```sh
 # Rock-Papper-Scissors
 $ npm install 
